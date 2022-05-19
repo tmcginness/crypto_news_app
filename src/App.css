@@ -7,6 +7,8 @@
  --border: #d9d9d9;
 }
 
+.app { background-color: #EFF2F5 }
+
 * {
   margin: 0;
   padding: 0;
@@ -77,7 +79,7 @@ a:hover{
 
 @media screen and (max-width:1300px){
   .main{
-      margin-left: 50px;
+      margin-left: 0px;
   }
 }
 
@@ -88,12 +90,21 @@ a:hover{
 }
 
 @media screen and (max-width:1000px){
+  img {display:none}
   .main{
-      margin-left: 100px;
+      padding-left: 20px;
   }
 }
 
 @media screen and (max-width:800px){
+
+  .provider-container {
+    display: flex;
+    justify-content: start!important;
+}
+
+img {display:none}
+
   .app{
       flex-direction: column;
       overflow: hidden;
@@ -105,7 +116,7 @@ a:hover{
 
   .main{
       flex: 1;
-      margin-top: 90px;
+      margin-top: 120px;
       margin-left: 0px;
       margin-right: 10px;
   }
@@ -292,14 +303,11 @@ padding: 0px 20px;
   width: 180px;
 }
 .news-card{
-  min-height: 300px !important;
+  min-height: 100% !important;
 }
 .news-image-container{
-  display: flex !important;
+
   justify-content: space-between !important;
-}
-.news-title{
-width: 70%;
 }
 
 .news-image-container .img{
@@ -309,6 +317,7 @@ width: 70%;
 .news-card p{
   color: black;
   margin: 10px 0px !important;
+  min-height: 100%;
 }
 .provider-container{
   display: flex;
@@ -376,4 +385,8 @@ width: 70%;
   flex-direction: column;
   padding: 20px;
   align-items: center;
+}
+
+.ant-card{
+  min-height: 100%;
 }
