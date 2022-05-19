@@ -1,16 +1,12 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 
 const Exchanges = props => {
     return (
         <div>
-            Exchanges
+            Exchanges requires a premium subscription to RapidAPI!
         </div>
     )
 }
 
-Exchanges.propTypes = {
-
-}
 
 export default Exchanges
