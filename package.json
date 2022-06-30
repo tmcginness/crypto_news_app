@@ -2,6 +2,7 @@
   "name": "crypto_news_app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://cryptoverse.tedmcginness.xyz/",
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@reduxjs/toolkit": "^1.8.0",
